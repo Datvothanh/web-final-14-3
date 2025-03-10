@@ -1,0 +1,90 @@
+.slide {
+    height: 550px;
+    object-fit: cover  !important;
+}
+
+.header {
+    display: flex;
+    background-color: #0D0D0D !important;
+    justify-content: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.nav {
+    /* width: 700px; */
+}
+
+.navbar-nav {
+    margin-left: 100px;
+    width: 500px !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.icon-search {
+    color: #fff !important;
+}
+
+.breadcrumb {
+    background-color: #787171 !important;
+    margin-top: 10px !important;
+}
+
+.price {
+    font-family: "Open Sans", sans-serif;
+    color: #ffb800 ;
+    font-weight: 700;
+}
+
+.card-text {
+    height: 50px;
+}
+
+.carousel-item img {
+    padding: 5px;
+}
+
+.col-sm img {
+   
+    height: 191px;
+}
+
+.title-blog {
+   
+    font-weight: 600;
+    color: #000;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #0D0D0D !important;
+    color: #fff !important;
+    height: 500px;
+    margin-top: 40px;
+}
+
+.des-blog {
+    padding-top: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14.4px;
+    color: #4d4d4d;
+    line-height: 1.6;
+}
+
+.tabs {
+    color: #000 !important;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+    border-radius: 20px !important;
+
+}
+
+.active.tabs {
+    background-color: #ffb800 !important;
+}
