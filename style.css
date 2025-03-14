@@ -20,7 +20,7 @@
 
 .navbar-nav {
     margin-left: 100px;
-    width: 500px !important;
+    width: 600px !important;
 }
 
 .nav-link {
@@ -88,3 +88,143 @@
 .active.tabs {
     background-color: #ffb800 !important;
 }
+
+.nav-link {
+    width: fit-content !important;
+}
+
+.breadcrumb {
+    background-color: #fff !important;
+}
+
+.breadcrumb a{
+    color: #6B6B6B !important;
+    text-decoration: none !important;
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 300 !important;
+}
+
+.breadcrumb li{
+    color: #000 !important;
+    text-decoration: none !important;
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">" !important;
+    font-weight: 300 !important;
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 12px !important;
+}
+
+.title-product {
+    font-weight: 600;
+    font-style: normal;
+    color: #000000;
+}
+
+.category-product {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif !important;
+    color: #000;
+    font-weight: 600;
+}
+
+.price-product {
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif !important;
+    color: #000;
+    font-weight: 700;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.btn-outline-warning {
+    border-color:#000 !important;
+}
+
+.variants-colors {
+    width: 30px;
+    height: 30px;
+    border: #000 1px solid;
+    border-radius: 5px;
+}
+ .variants {
+    display: flex;
+    gap: 10px;
+ }
+
+ .carousel-control-next, .carousel-control-prev {
+    color: #000 !important;
+ }
+
+ .carousel-control-next-icon {
+    background-image: url(https://cdn-icons-png.flaticon.com/128/2722/2722985.png) !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(https://cdn-icons-png.flaticon.com/128/16026/16026444.png)  !important;
+}
+
+.label-detail {
+    font-size: 16px;
+    font-weight: 700;
+    color: #6B6B6B;
+}
+
+.detail {
+    color: #6B6B6B; 
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif !important;
+}
+
+.detail ul{
+    margin-left: -16px;
+}
+
+.button-quantity {
+    margin: 10px 20px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn.button-quantity{
+    width: 24px !important;
+    height: 24px !important;
+    padding: 0px !important;
+    border: #000 1.2px solid !important;
+}
+
+.add-to-cart {
+    font-size: 15.52px !important;
+    font-family: "Open Sans", sans-serif !important;
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+    padding: 8px !important;
+    border-radius: 8px !important;
+    background: #feb700 !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
+}
+
+.nav-link.active.nav-product {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.nav-link.nav-product {
+    color: #6b6b6b !important;
+}
+
