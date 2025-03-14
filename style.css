@@ -1,18 +1,20 @@
 .slide {
     height: 550px;
-    object-fit: cover  !important;
+    object-fit: cover !important;
 }
 
 .header {
     display: flex;
     background-color: #0D0D0D !important;
     justify-content: center;
+    height: 70px !important;
 }
 
 .logo {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 45px;
 }
+
 .logo-footer {
     width: 120px;
     height: 98px;
@@ -42,7 +44,7 @@
 
 .price {
     font-family: "Open Sans", sans-serif;
-    color: #ffb800 ;
+    color: #ffb800;
     font-weight: 700;
 }
 
@@ -55,12 +57,12 @@
 }
 
 .col-sm img {
-   
+
     height: 191px;
 }
 
 .title-blog {
-   
+
     font-weight: 600;
     color: #000;
     font-size: 16px;
@@ -102,7 +104,7 @@
     background-color: #fff !important;
 }
 
-.breadcrumb a{
+.breadcrumb a {
     color: #6B6B6B !important;
     text-decoration: none !important;
     font-family: "Open Sans", sans-serif !important;
@@ -110,7 +112,7 @@
     font-weight: 300 !important;
 }
 
-.breadcrumb li{
+.breadcrumb li {
     color: #000 !important;
     text-decoration: none !important;
     font-family: "Open Sans", sans-serif !important;
@@ -152,7 +154,7 @@
 }
 
 .btn-outline-warning {
-    border-color:#000 !important;
+    border-color: #000 !important;
 }
 
 .variants-colors {
@@ -161,21 +163,23 @@
     border: #000 1px solid;
     border-radius: 5px;
 }
- .variants {
+
+.variants {
     display: flex;
     gap: 10px;
- }
+}
 
- .carousel-control-next, .carousel-control-prev {
+.carousel-control-next,
+.carousel-control-prev {
     color: #000 !important;
- }
+}
 
- .carousel-control-next-icon {
+.carousel-control-next-icon {
     background-image: url(https://cdn-icons-png.flaticon.com/128/2722/2722985.png) !important;
 }
 
 .carousel-control-prev-icon {
-    background-image: url(https://cdn-icons-png.flaticon.com/128/16026/16026444.png)  !important;
+    background-image: url(https://cdn-icons-png.flaticon.com/128/16026/16026444.png) !important;
 }
 
 .label-detail {
@@ -185,13 +189,17 @@
 }
 
 .detail {
-    color: #6B6B6B; 
+    color: #6B6B6B;
     font-size: 16px;
     font-family: "Open Sans", sans-serif !important;
 }
 
-.detail ul{
+.detail ul {
     margin-left: -16px;
+}
+
+.detail li {
+    margin-top: 10px;
 }
 
 .button-quantity {
@@ -204,7 +212,7 @@
     margin-bottom: 20px;
 }
 
-.btn.button-quantity{
+.btn.button-quantity {
     width: 24px !important;
     height: 24px !important;
     padding: 0px !important;
@@ -226,23 +234,32 @@
 
 .nav-link.active.nav-product {
     background-color: #fff !important;
-    color: #000 !important;
+    color: #2b2b2b !important;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 4px solid #feb700;
 }
 
 .nav-link.nav-product {
     color: #6b6b6b !important;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
-.card-title-link{
+
+
+.card-title-link {
     font-size: 16px !important;
     font-family: "Open Sans", sans-serif !important;
-    color: #000 !important; 
+    color: #000 !important;
     text-decoration: none !important;
     font-weight: 400 !important;
 }
 
-.card-title-link:hover{
-    color: #ffb800 !important; 
+.card-title-link:hover {
+    color: #ffb800 !important;
 }
 
 .text-footer {
@@ -252,11 +269,44 @@
     margin-top: 10px !important;
 }
 
-.ux-menu-link__text:hover{
-  color: #ffb800 !important;
-  cursor: pointer;
-  padding-left: 10px;
+.ux-menu-link__text:hover {
+    color: #ffb800 !important;
+    cursor: pointer;
+    padding-left: 10px;
 }
 
+.card {
+    border: none !important;
+}
 
+.card a {
+    background-color: #f4f4f4 !important;
+}
+
+.card-body { 
+    padding-left: 0px !important;
+}
+
+.tab-content h3 {
+    font-size: 20px !important;
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: bolder !important;
+}
+
+.tab-content h4 {
+    font-size: 18px !important;
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: bolder !important;
+    padding-top: 10px !important;
+}
+
+.tab-content p {
+    font-size: 16px !important;
+    font-family: "Open Sans", sans-serif !important;
+   color: #4D4D4D !important;
+}
+
+.tab-content li {
+    padding-top: 10px !important;
+}
 
